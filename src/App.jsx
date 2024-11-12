@@ -11,16 +11,11 @@ function App() {
 
   return (
     <>
-<<<<<<< HEAD
-    <div>
-     <Header/>
-=======
    
     <div>
     <Header className= 'fixed-header'/>
->>>>>>> daca255 (Describe your changes here)
     <Routes>
-     <Route exact path='/' element={<Home/>}/>
+<Route exact path='/' element={<Home/>}/>
      <Route exact path='/card' element={<Card/>}/>
 
     </Routes>

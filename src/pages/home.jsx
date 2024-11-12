@@ -1,11 +1,7 @@
 import { useEffect, useState } from "react"
 import { Circles, CirclesWithBar } from 'react-loader-spinner'
 import ProductTile from "../components/products-tile"
-<<<<<<< HEAD
-
-=======
 import '../components/header/header.css'
->>>>>>> daca255 (Describe your changes here)
 
 export default function Home() {
 
@@ -44,11 +40,7 @@ export default function Home() {
                     />
                 </div>
             ) :
-<<<<<<< HEAD
-                <div  className="min-h-[50vh] grid bg-black sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto p-3">
-=======
-                <div  className="main-content    min-h-[50vh] grid bg-black sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto p-3">
->>>>>>> daca255 (Describe your changes here)
+                <div  className="main-content     min-h-[50vh] grid bg-black sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 max-w-6xl mx-auto p-3">
 
                     {
                  products && products.length  ?
