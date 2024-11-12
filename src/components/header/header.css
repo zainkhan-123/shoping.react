@@ -1,0 +1,57 @@
+/* Header.css */
+.fixed-header {
+    position: fixed;       /* Fixes header at the top of the viewport */
+    top: 0;                /* Aligns it to the top */
+    left: 0;               /* Aligns it to the left */
+    width: 100%;           /* Full width */
+    height: 60px;          /* Adjust the height as needed */
+    background-color: rgb(60, 60, 82); /* Set background color to match your design */
+    z-index: 1000;         /* Ensure it's above other content */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adds shadow for depth */
+    display: flex;
+    align-items: center;
+    padding:  20px;
+    padding-top: 5%;
+  }
+  @media (max-width: 650px) {
+.fixed-header {
+     padding-top: 10%;
+     padding-bottom: 10%;
+     
+    
+    }
+    
+  }
+  @media (max-width: 579px) {
+.fixed-header {
+     padding-top: 12%;
+     padding-bottom: 12%;
+     
+    
+    }
+    
+  }
+  @media (max-width: 508px) {
+.fixed-header {
+     padding-top: 14%;
+     padding-bottom: 14%;
+     
+    
+    }
+    
+  }
+  @media (max-width: 408px) {
+.fixed-header {
+     padding-top: 16%;
+     padding-bottom: 16%;
+     
+    
+    }
+    
+  }
+
+  
+  .main-content {
+    padding-top: 60px; /* Add padding to offset the fixed header height */
+  }
+  
